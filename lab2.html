@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cafe Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fffaf0;
+      margin: 20px;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      color: #8B4513;
+      margin-bottom: 40px;
+    }
+    table {
+      width: 90%;
+      margin: auto;
+      border-spacing: 0;
+      border: 2px solid #777574;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 15px;
+      text-align: center;
+      border-right: 1px solid #666666;
+      border-bottom: 1px solid #575554;
+      background-color: #fff;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    td:last-child, th:last-child {
+      border-right: none;
+    }
+    th {
+      background-color: #23222c;
+      color: #ffffff;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .ingredients {
+      font-size: 0.9em;
+      color: rgb(0, 0, 0);
+    }
+  </style>
+</head>
+<body>
+  <h1>Cafe Menu</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Name</th>
+        <th>Ingredients</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReD-bC-7r4pryxORhUNekzluaB1PtMKU1iMw&s"></td>
+        <td>Classic Brew</td>
+        <td class="ingredients">Arabica beans, filtered water</td>
+      </tr>
+      <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx2NWlYbtbpDlIWIRgBa8CHa8xUJ_IGwBCeQ&s" alt="Croissant"></td>
+        <td>Butter Croissant</td>
+        <td class="ingredients">Butter, flour, yeast, sugar</td>
+      </tr>
+      <tr>
+        <td><img src="https://thejoyfilledkitchen.com/wp-content/uploads/2021/05/DSC_0067-2-480x270.jpg?crop=1" alt="Smoothie"></td>
+        <td>Berry Smoothie</td>
+        <td class="ingredients">Strawberries, blueberries, yogurt, honey</td>
+      </tr>
+      <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9AIvAc6dkD5GTVhVASi91F4Jc4n7AbOFhw&s" alt="Sandwich"></td>
+        <td>Avocado Toast</td>
+        <td class="ingredients">Sourdough bread, avocado, olive oil, chili flakes</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
