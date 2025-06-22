@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>10 Boxes Column</title>
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* spacing between boxes */
+    width: 100px; /* container width same as box width */
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    user-select: none;
+  }
+  .orange {
+    background-color: orange;
+  }
+  .aqua {
+    background-color: aqua;
+    color: black; /* aqua background, so black text is clearer */
+  }
+</style>
+</head>
+<body>
+
+<div class="container" id="boxContainer"></div>
+
+<script src="box.js"></script>
+
+</body>
+</html>
